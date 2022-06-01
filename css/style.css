@@ -1,0 +1,171 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+
+.debug .col{
+    border: dotted 2px #000;  
+}
+
+.debug #jumbotron{
+    background-color:darkblue;
+}
+.debug #jumbotron .content{
+    background-color: violet;
+}
+
+
+.debug main section{
+    height: 600px;
+}
+
+.debug .big-column{
+    background-color: dodgerblue;
+}
+.debug .small-column{
+    background-color: pink;
+}
+
+/* ultimasezione */
+.debug main section:last-child{
+    height: 1000px;
+}
+.debug .full-column{
+     background-color: green;
+}
+
+.debug .footer-top{
+    height: 600px;
+}
+.debug .main-column{
+    background-color: lightcoral;
+}
+.debug .footer-top .menu-column .col{
+    border: dotted 2px #fff;
+    background-color: lightseagreen;
+}
+.debug .footer-bottom{
+    background-color: aquamarine;
+}
+
+.debug .footer-bottom .col{
+    background-color: pink;
+}
+
+/* fine debug */
+
+
+/* header   */
+header{
+    height: 600px;
+    background-color: lightblue;
+}
+header .nav-bar{
+    height: 80px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+
+} 
+header .nav-bar > div{  
+    padding: 10px;
+
+}
+header .logo, header .login{
+    width: 20%;
+}
+header .link{
+    width: 60%;
+}
+header .link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header .link li{
+    padding: 0 5px;
+}
+.login{
+    text-align: right;
+}
+#jumbotron{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#jumbotron .content{
+    height: 100%;
+    width: 60%;
+}
+
+
+/*main*/
+
+main section{
+    padding:50px;   
+}
+
+.bg-gray{
+    background-color: lightgray
+}
+.container{  
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.big-column{
+    width: 60%;
+}
+.small-column{
+    width: 40%;
+}  
+.full-column{
+    height: 100%;
+    width: 100%;
+}
+
+/* inizio footer */
+footer{
+    background-color: #000;
+}
+.footer-top{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 50px 0px;
+}
+.footer-top .main-column{
+    width: 25%;
+}
+.footer-top .menu-column{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top .menu-column .col{
+    flex-basis: 25%;
+}
+
+.footer-bottom{
+    width: 1200px;
+    height: 80px;
+    margin: 50px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-bottom .col{
+    padding: 5px;
+}
+
+
