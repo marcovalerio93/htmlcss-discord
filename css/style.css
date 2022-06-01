@@ -5,17 +5,19 @@
     box-sizing: border-box;
 }
 /* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+/* font */
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
-.debug .col{
+/* .debug .col{
     border: dotted 2px #000;  
 }
 
 .debug #jumbotron{
     background-color:darkblue;
 }
-.debug #jumbotron .content{
-    background-color: violet;
-}
+
 
 
 .debug main section{
@@ -27,15 +29,15 @@
 }
 .debug .small-column{
     background-color: pink;
-}
+} */
 
 /* ultimasezione */
-.debug main section:last-child{
+/* .debug main section:last-child{
     height: 1000px;
 }
 .debug .full-column{
      background-color: green;
-}
+} */
 
 .debug .footer-top{
     height: 600px;
@@ -56,12 +58,32 @@
 }
 
 /* fine debug */
-
+/* bottoni */
+.btn{
+    background-color: #fff;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-small{
+    padding: 10px;
+}
+.btn-big{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+}
 
 /* header   */
 header{
     height: 600px;
-    background-color: lightblue;
+    background-color:#255ee9 ;
 }
 header .nav-bar{
     height: 80px;
@@ -97,15 +119,46 @@ header .link li{
     display: flex;
     justify-content: center;
     padding: 50px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
 }
 #jumbotron .content{
     height: 100%;
     width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+#jumbotron h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#jumbotron p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main-menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
 }
 
 
-/*main*/
 
+
+/*main*/
+section .container img{
+    width: 100%;
+}
+section .container h1{
+    font-size: 36px;
+    margin-bottom:20px ;
+    padding-top: 30px;
+}
+section .container p{
+
+}
 main section{
     padding:50px;   
 }
@@ -130,6 +183,7 @@ main section{
 .full-column{
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 
 /* inizio footer */
