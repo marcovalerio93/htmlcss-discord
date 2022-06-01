@@ -39,7 +39,7 @@ body{
      background-color: green;
 } */
 
-.debug .footer-top{
+/* .debug .footer-top{
     height: 600px;
 }
 .debug .main-column{
@@ -55,7 +55,7 @@ body{
 
 .debug .footer-bottom .col{
     background-color: pink;
-}
+} */
 
 /* fine debug */
 /* bottoni */
@@ -68,6 +68,7 @@ body{
 }
 .btn-small{
     padding: 10px;
+    font-size: 12px;
 }
 .btn-big{
     padding: 20px;
@@ -77,6 +78,10 @@ body{
 }
 .btn-dark{
     background-color: #000;
+    color: #fff;
+}
+.btn-violet{
+    background-color: rgb(118, 136, 212);
     color: #fff;
 }
 
@@ -152,13 +157,16 @@ section .container img{
     width: 100%;
 }
 section .container h1{
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom:20px ;
     padding-top: 30px;
 }
-section .container p{
-
+section .container h2{
+    font-size: 25px;
+    margin-bottom:50px ;
+    padding-top: 30px;
 }
+
 main section{
     padding:50px;   
 }
@@ -192,10 +200,48 @@ footer{
 }
 .footer-top{
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
+    border-bottom: solid 2px rgb(118, 136, 212);
+}
+
+.footer-top h1{
+    color: rgb(118, 136, 212);
+    font-weight:bold;
+}
+
+.footer-top .social{
+    color: #fff;
+}
+.footer-top img{
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+.footer-top .ri-arrow-drop-down-line{
+    vertical-align: middle;
+}
+.footer-top p{
+    color: #fff;
+
+}
+.footer-top ul{
+    color: rgb(118, 136, 212);
+    font-weight:800;
+}
+.footer-top li {
+    list-style: none;
+    
+}
+.footer-top li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-top ul li{
+    margin-bottom: 5%;
 }
 .footer-top .main-column{
     width: 25%;
@@ -212,7 +258,9 @@ footer{
 .footer-bottom{
     width: 1200px;
     height: 80px;
-    margin: 50px auto 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,5 +269,4 @@ footer{
 .footer-bottom .col{
     padding: 5px;
 }
-
 
