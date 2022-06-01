@@ -84,10 +84,10 @@ body{
     background-color: rgb(118, 136, 212);
     color: #fff;
 }
-
+ 
 /* header   */
 header{
-    height: 600px;
+    height: 560px;
     background-color:#255ee9 ;
 }
 header .nav-bar{
@@ -192,8 +192,15 @@ main section{
     height: 100%;
     width: 100%;
     text-align: center;
-}
 
+}
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+}
 /* inizio footer */
 footer{
     background-color: #000;
